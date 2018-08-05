@@ -1,2 +1,2 @@
 ## Data Structures:
-- linkedlist.py: A simple link list built in Python
+- linkedlist.py: A simple linked list built in Python
