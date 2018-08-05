@@ -1,1 +1,1 @@
-# data-structures
+# A compliation of data structures and algorithms
