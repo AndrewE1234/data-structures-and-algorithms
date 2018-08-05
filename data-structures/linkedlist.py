@@ -1,3 +1,9 @@
+# linkedlist.py
+# Andrew Eljumaily
+#
+# An example of a basic linked list with some sample output.
+
+
 class Node(object):
     def __init__(self, data=None, nextNode=None):
         self.data = data
@@ -47,6 +53,9 @@ class LinkedList(object):
 
         return currentNode
 
+    # Deletes node by pointing previousNode to the node after
+    # currentNode
+
     def delete(self, data):
         currentNode = self.head
         previousNode = None
@@ -79,6 +88,7 @@ print("The current list size is: ", ll.size())
 print("Search for 2 in the list: ", ll.search(2).getData())
 
 ll.delete(2)
+
 print("Deleted 2 from list")
 
 print("The current list size is: ", ll.size())
